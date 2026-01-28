@@ -41,14 +41,15 @@ export const Header: React.FC = () => {
 
           {/* Desktop Nav - Centered Pill */}
           {!isMobileMenuOpen && (
-            <nav className="hidden md:flex items-center gap-1">
+            <nav className="hidden md:flex items-center gap-8">
               {navLinks.map((link) => (
                 <a
                   key={link.label}
                   href={link.href}
-                  className="px-4 py-2 text-xs font-medium text-brand-gray hover:text-white transition-colors"
+                  className="text-sm font-medium text-brand-gray/80 hover:text-white transition-colors duration-300 relative group"
                 >
                   {link.label}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-brand-lime to-transparent group-hover:w-full transition-all duration-300"></span>
                 </a>
               ))}
             </nav>

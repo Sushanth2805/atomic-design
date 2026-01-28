@@ -21,33 +21,33 @@ export const Process: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Step 1 */}
-            <div className="p-10 rounded-[2rem] bg-[#0A0A0A] border border-white/10 h-full hover:border-brand-lime/30 transition-all duration-300 group hover:-translate-y-1">
-                <div className="w-16 h-16 bg-brand-lime text-black rounded-2xl flex items-center justify-center mb-10 group-hover:rotate-12 transition-transform duration-300 shadow-[0_0_20px_rgba(223,255,0,0.2)]">
+            <div className="p-12 rounded-[2.5rem] bg-gradient-to-br from-[#0A0A0A] to-[#050505] border border-white/10 h-full hover:border-brand-lime/40 transition-all duration-300 group hover:-translate-y-2 shadow-lg hover:shadow-brand-lime/10">
+                <div className="w-16 h-16 bg-brand-lime text-black rounded-2xl flex items-center justify-center mb-10 group-hover:rotate-12 transition-transform duration-300 shadow-xl shadow-brand-lime/30">
                     <Box size={32} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl text-white mb-4 font-medium">Tell us your vision</h3>
+                <h3 className="text-2xl text-white mb-4 font-semibold">Tell us your vision</h3>
                 <p className="text-brand-gray text-base leading-relaxed font-light">
                     Choose a plan and share your design project details with us: we're here to listen.
                 </p>
             </div>
 
             {/* Step 2 */}
-            <div className="p-10 rounded-[2rem] bg-[#0A0A0A] border border-white/10 h-full hover:border-brand-lime/30 transition-all duration-300 group hover:-translate-y-1">
-                <div className="w-16 h-16 bg-brand-lime text-black rounded-full flex items-center justify-center mb-10 group-hover:scale-110 transition-transform duration-300 shadow-[0_0_20px_rgba(223,255,0,0.2)]">
+            <div className="p-12 rounded-[2.5rem] bg-gradient-to-br from-[#0A0A0A] to-[#050505] border border-white/10 h-full hover:border-brand-lime/40 transition-all duration-300 group hover:-translate-y-2 shadow-lg hover:shadow-brand-lime/10">
+                <div className="w-16 h-16 bg-brand-lime text-black rounded-full flex items-center justify-center mb-10 group-hover:scale-110 transition-transform duration-300 shadow-xl shadow-brand-lime/30">
                     <Disc size={32} strokeWidth={1.5} className="animate-spin-slow" />
                 </div>
-                <h3 className="text-2xl text-white mb-4 font-medium">Receive the magic</h3>
+                <h3 className="text-2xl text-white mb-4 font-semibold">Receive the magic</h3>
                 <p className="text-brand-gray text-base leading-relaxed font-light">
                     Sit back and relax: our expert designers will turn your vision into reality.
                 </p>
             </div>
 
             {/* Step 3 */}
-            <div className="p-10 rounded-[2rem] bg-[#0A0A0A] border border-white/10 h-full hover:border-brand-lime/30 transition-all duration-300 group hover:-translate-y-1">
-                <div className="w-16 h-16 bg-brand-lime text-black rounded-2xl flex items-center justify-center mb-10 group-hover:-rotate-6 transition-transform duration-300 shadow-[0_0_20px_rgba(223,255,0,0.2)]">
+            <div className="p-12 rounded-[2.5rem] bg-gradient-to-br from-[#0A0A0A] to-[#050505] border border-white/10 h-full hover:border-brand-lime/40 transition-all duration-300 group hover:-translate-y-2 shadow-lg hover:shadow-brand-lime/10">
+                <div className="w-16 h-16 bg-brand-lime text-black rounded-2xl flex items-center justify-center mb-10 group-hover:-rotate-6 transition-transform duration-300 shadow-xl shadow-brand-lime/30">
                     <ScanFace size={32} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl text-white mb-4 font-medium">Get ongoing support</h3>
+                <h3 className="text-2xl text-white mb-4 font-semibold">Get ongoing support</h3>
                 <p className="text-brand-gray text-base leading-relaxed font-light">
                     Your subscription ensures you have continuous access to our design team.
                 </p>

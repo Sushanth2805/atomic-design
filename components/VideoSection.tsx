@@ -3,8 +3,8 @@ import { Play, ArrowRight } from 'lucide-react';
 
 export const VideoSection: React.FC = () => {
   return (
-    <section className="py-20 max-w-7xl mx-auto px-4">
-      <div className="rounded-[40px] bg-brand-card border border-brand-border p-8 md:p-16 flex flex-col md:flex-row gap-12 items-center">
+    <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="rounded-[2.5rem] bg-gradient-to-br from-brand-card to-[#050505] border border-white/10 p-10 md:p-16 flex flex-col md:flex-row gap-14 items-center shadow-lg hover:shadow-brand-lime/10 transition-shadow duration-300">
         
         {/* Left Content */}
         <div className="flex-1 space-y-8">
@@ -13,7 +13,7 @@ export const VideoSection: React.FC = () => {
                 CUSTOMER STORY
             </div>
             
-            <blockquote className="text-3xl md:text-4xl text-white font-medium leading-tight">
+            <blockquote className="text-3xl md:text-4xl text-white font-semibold leading-tight">
                 "Our growth no longer necessitates the recruitment and education of additional design professionals"
             </blockquote>
 

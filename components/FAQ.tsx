@@ -37,17 +37,17 @@ export const FAQ: React.FC = () => {
                     {faqs.map((item, idx) => (
                         <div 
                             key={idx} 
-                            className="bg-brand-card border border-brand-border rounded-xl overflow-hidden transition-all duration-300"
+                            className="bg-gradient-to-r from-[#0A0A0A] to-[#050505] border border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:border-brand-lime/30 hover:shadow-lg hover:shadow-brand-lime/10 group"
                         >
                             <button 
                                 onClick={() => toggle(idx)}
                                 className="w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition-colors"
                             >
-                                <span className="text-white text-sm md:text-base font-medium pr-8">{item.q}</span>
+                                <span className="text-white text-sm md:text-base font-semibold pr-8">{item.q}</span>
                                 {openIndex === idx ? (
-                                    <X className="flex-shrink-0 text-white/50" size={18} />
+                                    <X className="flex-shrink-0 text-brand-lime" size={20} />
                                 ) : (
-                                    <Plus className="flex-shrink-0 text-white/50" size={18} />
+                                    <Plus className="flex-shrink-0 text-white/50 group-hover:text-brand-lime transition-colors" size={20} />
                                 )}
                             </button>
                             

@@ -3,11 +3,11 @@ import { Layers, Command, Disc, Box, PenTool, Globe } from 'lucide-react'; // Us
 
 export const Logos: React.FC = () => {
   return (
-    <section className="py-12 border-b border-white/5">
-      <div className="max-w-7xl mx-auto px-4">
-        <p className="text-center text-brand-gray mb-10 text-lg">Already chosen by the leaders</p>
+    <section className="py-16 border-b border-white/5 bg-gradient-to-b from-brand-dark to-[#050505]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <p className="text-center text-brand-gray/80 mb-12 text-base font-light">Already chosen by the leaders</p>
         
-        <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+        <div className="flex flex-wrap justify-center items-center gap-16 md:gap-24 opacity-60 hover:opacity-100 transition-all duration-500 group">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 bg-white/80 rounded-full"></div>
             <span className="text-xl font-bold font-sans tracking-tight">headspace</span>

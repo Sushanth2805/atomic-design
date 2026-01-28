@@ -19,9 +19,9 @@ export const Features: React.FC = () => {
     <section id="features" className="py-32 max-w-7xl mx-auto px-4 sm:px-6">
       
       {/* Intro Box */}
-      <div className="mb-24 rounded-[2rem] border border-white/10 bg-[#0A0A0A] p-10 md:p-20 text-center relative overflow-hidden group">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(223,255,0,0.05)_0%,rgba(0,0,0,0)_50%)]"></div>
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2/3 h-[1px] bg-gradient-to-r from-transparent via-brand-lime/30 to-transparent group-hover:via-brand-lime/60 transition-colors duration-700"></div>
+      <div className="mb-24 rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-[#0A0A0A] to-[#050505] p-12 md:p-24 text-center relative overflow-hidden group shadow-2xl shadow-brand-lime/5">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(223,255,0,0.08)_0%,rgba(0,0,0,0)_50%)]"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2/3 h-[2px] bg-gradient-to-r from-transparent via-brand-lime/40 to-transparent group-hover:via-brand-lime/70 transition-colors duration-700"></div>
         
         <div className="relative z-10">
             <div className="inline-flex items-center gap-2 text-[10px] font-bold tracking-widest uppercase text-brand-lime mb-8 border border-brand-lime/20 px-3 py-1 rounded-full bg-brand-lime/5">
@@ -51,7 +51,7 @@ export const Features: React.FC = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
         {/* Card 1: Cost Effective - Bar Chart */}
-        <div className="group rounded-[2rem] bg-[#0A0A0A] border border-white/10 p-8 hover:border-white/20 transition-all duration-300 flex flex-col justify-between h-[420px] overflow-hidden relative">
+        <div className="group rounded-[2.5rem] bg-gradient-to-br from-[#0A0A0A] to-[#050505] border border-white/10 p-10 hover:border-brand-lime/30 transition-all duration-300 flex flex-col justify-between h-[440px] overflow-hidden relative shadow-lg hover:shadow-brand-lime/10">
              <div className="absolute top-0 right-0 p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <ArrowRight className="text-brand-lime -rotate-45" />
              </div>
@@ -89,7 +89,7 @@ export const Features: React.FC = () => {
         </div>
 
         {/* Card 2: Tailor-made - UI Card */}
-        <div className="group rounded-[2rem] bg-[#0A0A0A] border border-white/10 p-8 hover:border-white/20 transition-all duration-300 flex flex-col justify-between h-[420px] overflow-hidden relative">
+        <div className="group rounded-[2.5rem] bg-gradient-to-br from-[#0A0A0A] to-[#050505] border border-white/10 p-10 hover:border-brand-lime/30 transition-all duration-300 flex flex-col justify-between h-[440px] overflow-hidden relative shadow-lg hover:shadow-brand-lime/10">
              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.03)_0%,rgba(0,0,0,0)_100%)] opacity-0 group-hover:opacity-100 transition-opacity"></div>
              
              <div className="flex-1 flex items-center justify-center">
@@ -128,7 +128,7 @@ export const Features: React.FC = () => {
         </div>
 
         {/* Card 3: Scalable - Sine Wave */}
-        <div className="group rounded-[2rem] bg-[#0A0A0A] border border-white/10 p-8 hover:border-white/20 transition-all duration-300 flex flex-col justify-between h-[420px] overflow-hidden relative">
+        <div className="group rounded-[2.5rem] bg-gradient-to-br from-[#0A0A0A] to-[#050505] border border-white/10 p-10 hover:border-brand-lime/30 transition-all duration-300 flex flex-col justify-between h-[440px] overflow-hidden relative shadow-lg hover:shadow-brand-lime/10">
             <div className="flex-1 flex items-center justify-center relative w-full">
                  <div className="absolute inset-0 flex items-center justify-center opacity-30">
                     {/* Grid lines */}
@@ -160,7 +160,7 @@ export const Features: React.FC = () => {
       {/* Row 2 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         {/* Card 4: Workflow Integration */}
-        <div className="group rounded-[2rem] bg-[#0A0A0A] border border-white/10 p-8 md:px-12 md:py-12 hover:border-white/20 transition-all duration-300 flex flex-col md:flex-row justify-between items-center relative overflow-hidden gap-8">
+        <div className="group rounded-[2.5rem] bg-gradient-to-br from-[#0A0A0A] to-[#050505] border border-white/10 p-10 md:px-14 md:py-12 hover:border-brand-lime/30 transition-all duration-300 flex flex-col md:flex-row justify-between items-center relative overflow-hidden gap-10 shadow-lg hover:shadow-brand-lime/10">
              <div className="relative z-10 max-w-xs">
                  <h4 className="text-xl text-white mb-3 font-medium">Workflow integration</h4>
                  <p className="text-brand-gray text-sm leading-relaxed">Seamlessly connect all your existing apps.</p>
@@ -186,7 +186,7 @@ export const Features: React.FC = () => {
         </div>
 
         {/* Card 5: Collaborate */}
-        <div className="group rounded-[2rem] bg-[#0A0A0A] border border-white/10 p-8 md:px-12 md:py-12 hover:border-white/20 transition-all duration-300 flex flex-col md:flex-row justify-between items-center relative overflow-hidden gap-8">
+        <div className="group rounded-[2.5rem] bg-gradient-to-br from-[#0A0A0A] to-[#050505] border border-white/10 p-10 md:px-14 md:py-12 hover:border-brand-lime/30 transition-all duration-300 flex flex-col md:flex-row justify-between items-center relative overflow-hidden gap-10 shadow-lg hover:shadow-brand-lime/10">
              <div className="relative z-10 max-w-xs">
                  <h4 className="text-xl text-white mb-3 font-medium">Collaborate real-time</h4>
                  <p className="text-brand-gray text-sm leading-relaxed">Seamlessly connect all your existing apps.</p>

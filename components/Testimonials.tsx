@@ -77,18 +77,18 @@ export const Testimonials: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {testimonials.map((t, idx) => (
-                <div key={`${t.id}-${idx}`} className="bg-[#0A0A0A] border border-white/5 rounded-2xl p-8 hover:border-brand-lime/20 hover:bg-[#0f0f0f] transition-all duration-300 flex flex-col h-full group">
+                <div key={`${t.id}-${idx}`} className="bg-gradient-to-br from-[#0A0A0A] to-[#050505] border border-white/10 rounded-2xl p-8 hover:border-brand-lime/40 hover:shadow-lg hover:shadow-brand-lime/10 transition-all duration-300 flex flex-col h-full group">
                     <div className="flex items-center gap-4 mb-6">
                         <img src={t.avatar} alt={t.name} className="w-12 h-12 rounded-full object-cover border border-white/10 group-hover:border-brand-lime/50 transition-colors" />
                         <div>
-                            <div className="text-white text-base font-medium">{t.name}</div>
+                            <div className="text-white text-base font-semibold">{t.name}</div>
                             <div className="text-brand-gray text-xs">{t.role}</div>
                         </div>
                     </div>
                     <p className="text-brand-gray text-sm leading-relaxed mb-6 flex-grow font-light">
                         "{t.content}"
                     </p>
-                    <div className="text-brand-gray/30 text-[10px] uppercase tracking-wider font-mono">
+                    <div className="text-brand-gray/40 text-[10px] uppercase tracking-wider font-mono">
                         {t.date}
                     </div>
                 </div>
