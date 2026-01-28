@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, Command, Disc, Box, PenTool, Globe } from 'lucide-react'; // Using lucide icons as placeholders for brand logos
+import { Layers } from 'lucide-react';
 
 export const Logos: React.FC = () => {
   return (

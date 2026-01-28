@@ -1,5 +1,5 @@
 import React from 'react';
-import { Zap, Check, ArrowRight, MessageCircle, BarChart3, Layers, Users, ZapIcon, MousePointer2 } from 'lucide-react';
+import { Zap, ArrowRight, MessageCircle, Layers, ZapIcon, MousePointer2 } from 'lucide-react';
 
 const Tag = ({ text, color = "lime" }: { text: string, color?: "lime" | "purple" | "orange" }) => {
     let dotColor = "bg-brand-lime";
